@@ -5,6 +5,7 @@
 另外，如果：
 
 - 你发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
+- 你觉得自己英语不错，想加快翻译进度，可以查看 [共建计划](https://github.com/csfive/composing-programs-zh/issues/3) 领取对应章节后提交 PR
 - 你觉得我做的还不错，可以关注 [本组织](https://github.com/csfive) 或 [本人](https://github.com/mancuoj)，并给关联仓库一个 star ⭐
 - 你也想加入本组织一起学习或有一些其他方面的问题，可以点击右上角图标加入本组织的 Discord
 - ...
