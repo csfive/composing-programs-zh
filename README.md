@@ -1,3 +1,1 @@
-<pre align="center">
-😎 WIP - https://csfive.netlify.app/sicp-python/ch1/1-1
-</pre>
+CS61A 教材《Composing Programs》也就是《计算机程序的构造与解释》Python 版本的中文翻译。
