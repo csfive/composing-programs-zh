@@ -4,7 +4,7 @@
 
 另外，如果：
 
-- 你发现了翻译的错漏，可以向关联的 [GitHub 仓库](https://github.com/csfive/docs) 提交 issue 或者 PR
+- 你发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
 - 你觉得我做的还不错，可以关注 [本组织](https://github.com/csfive) 或 [本人](https://github.com/mancuoj)，并给关联仓库一个 star ⭐
 - 你也想加入本组织一起学习或有一些其他方面的问题，可以点击右上角图标加入本组织的 Discord
 - ...
@@ -23,6 +23,13 @@
 | 1.7  | 递归函数     | 23/3/7       |
 | 2.1  | 引言         |              |
 | ...  |              |              |
+
+
+## 贡献者列表
+
+<a href="https://github.com/csfive/composing-programs-zh/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=csfive/composing-programs-zh" />
+</a>
 
 
 ## 版权信息
