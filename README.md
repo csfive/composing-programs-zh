@@ -1,13 +1,12 @@
 # 译者声明
 
-叠甲过：本翻译纯属个人爱好，如果涉及到任何版权行为，请联系我，我将删除内容。文中所有内容，与本人现在，之前或者将来的雇佣公司无关，本人保留自省的权利，也就是说你看到的内容不一定代表本人最新的认知和观点。
+这是一个还在进行中的翻译项目，原书为伯克利课程 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 SICP 的 Python 版本。
 
-另外，如果：
+由于本人能力限制，如果
 
-- 你发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
-- 你觉得自己英语不错，想加快翻译进度，可以查看 [共建计划](https://github.com/csfive/composing-programs-zh/issues/3) 领取对应章节后提交 PR
-- 你觉得我做的还不错，可以关注 [本组织](https://github.com/csfive) 或 [本人](https://github.com/mancuoj)，并给关联仓库一个 star ⭐
-- 你也想加入本组织一起学习或有一些其他方面的问题，可以点击右上角图标加入本组织的 Discord
+- 您发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
+- 您觉得自己英语不错，想加快翻译进度，可以查看 [共建计划](https://github.com/csfive/composing-programs-zh/issues/3) 领取对应章节后提交 PR
+- 您觉得我做的还不错，可以关注 [本组织](https://github.com/csfive) 或 [本人](https://github.com/mancuoj)，并给该仓库一个 star ⭐
 - ...
 
 
@@ -22,7 +21,8 @@
 | 1.5  | 控制         | 23/2/10      |
 | 1.6  | 高阶函数     | 23/3/7       |
 | 1.7  | 递归函数     | 23/3/7       |
-| 2.1  | 引言         |              |
+| 2.1  | 引言         | 23/3/11      |
+| 2.2  | 数据抽象     | 23/          |
 | ...  |              |              |
 
 
