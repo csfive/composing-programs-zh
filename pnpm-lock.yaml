@@ -8,7 +8,7 @@ specifiers:
   markdown-it-smartarrows: ^1.0.1
   markdown-it-texmath: ^1.0.0
   medium-zoom: ^1.0.8
-  vitepress: 1.0.0-alpha.51
+  vitepress: 1.0.0-alpha.54
   vue: ^3.2.45
 
 devDependencies:
@@ -19,7 +19,7 @@ devDependencies:
   markdown-it-smartarrows: 1.0.1
   markdown-it-texmath: 1.0.0
   medium-zoom: 1.0.8
-  vitepress: 1.0.0-alpha.51
+  vitepress: 1.0.0-alpha.54
   vue: 3.2.45
 
 packages:
@@ -472,7 +472,7 @@ packages:
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.20
+      postcss: 8.4.21
       source-map: 0.6.1
     dev: true
 
@@ -797,15 +797,6 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /postcss/8.4.20:
-    resolution: {integrity: sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.4
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
   /postcss/8.4.21:
     resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -903,8 +894,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.51:
-    resolution: {integrity: sha512-euZpjXeIaNUadLAQtd7NYbKhJJoDyZ6z8YK77qlM2c6NvUB5wmLPU6moP4rfcKUqpBDrsrxjJS6fdPk6azS5qQ==}
+  /vitepress/1.0.0-alpha.54:
+    resolution: {integrity: sha512-VvnXyRIffMUmoKHbxlXZiajsB8TVk8z4uLq3lowDbere/u1FMFMQPR3xzz7nwWjUEJnm2mw5D43e9Pni16qUUw==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.3
