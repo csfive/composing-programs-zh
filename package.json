@@ -15,7 +15,7 @@
     "markdown-it-mark": "^3.0.1",
     "markdown-it-smartarrows": "^1.0.1",
     "medium-zoom": "^1.0.8",
-    "vitepress": "1.0.0-alpha.56",
+    "vitepress": "1.0.0-alpha.58",
     "vue": "^3.2.45"
   },
   "main": "index.js",
