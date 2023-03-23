@@ -42,4 +42,4 @@
 
 ## 版权信息
 
-本系列所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议，转载请注明来源 —— [csfive](https://github.com/csfive)！
+本系列所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议，转载请注明来源 — [CSfive](https://github.com/csfive)！
