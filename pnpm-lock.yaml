@@ -8,7 +8,7 @@ specifiers:
   markdown-it-smartarrows: ^1.0.1
   markdown-it-texmath: ^1.0.0
   medium-zoom: ^1.0.8
-  vitepress: 1.0.0-alpha.62
+  vitepress: 1.0.0-alpha.63
   vue: ^3.2.45
 
 devDependencies:
@@ -19,7 +19,7 @@ devDependencies:
   markdown-it-smartarrows: 1.0.1
   markdown-it-texmath: 1.0.0
   medium-zoom: 1.0.8
-  vitepress: 1.0.0-alpha.62
+  vitepress: 1.0.0-alpha.63
   vue: 3.2.45
 
 packages:
@@ -894,8 +894,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.62:
-    resolution: {integrity: sha512-99RvczAQANultUykkRQeWb75pD07Fgg+dc7epqctrPmLuK/9FC2DQojC0xFNUMJJMYWCR4liCfHjKMPdOpChIA==}
+  /vitepress/1.0.0-alpha.63:
+    resolution: {integrity: sha512-7QMwjT9888S64SkmJqSmRlP417yniCj4IqawIpzYSQMnlJ5CjBWOTbzXKvmzRZkjOJGTcaYr2C88+1/z8ERG+g==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.3
