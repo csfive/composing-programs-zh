@@ -1,4 +1,9 @@
-# 译者声明
+# Composing Programs
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status)](https://app.netlify.com/sites/composingprograms/deploys)
+![Github stars](https://img.shields.io/github/stars/csfive/composing-programs-zh?style=flat)
+![Github forks](https://img.shields.io/github/forks/csfive/composing-programs-zh?style=flat)
+![CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)
 
 这是一个还在进行中的翻译项目，原书为伯克利课程 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 SICP 的 Python 版本。
 
@@ -22,15 +27,8 @@
 | 1.6  | 高阶函数     | 23/3/7       |
 | 1.7  | 递归函数     | 23/3/7       |
 | 2.1  | 引言         | 23/3/11      |
-| 2.2  | 数据抽象     | 23/          |
-| 2.3  | 序列         |              |
-| 2.4  | 可变数据     |              |
-| 2.5  | 面向对象编程 |              |
-| 2.6  | 实现类和对象 |              |
-| 2.7  | 对象抽象     |              |
-| 2.8  | 效率         |              |
-| 2.9  | 递归对象     |              |
 | 3.1  | 引言         | 23/3/23      |
+| 4.1  | 引言         | 23/4/3       |
 
 
 ## 贡献者列表
@@ -38,8 +36,3 @@
 <a href="https://github.com/csfive/composing-programs-zh/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=csfive/composing-programs-zh" />
 </a>
-
-
-## 版权信息
-
-本系列所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议，转载请注明来源 — [CSfive](https://github.com/csfive)！
