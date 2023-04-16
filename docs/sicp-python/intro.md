@@ -1,11 +1,11 @@
 # Composing Programs
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status)](https://app.netlify.com/sites/composingprograms/deploys)
-![Github stars](https://img.shields.io/github/stars/csfive/composing-programs-zh?style=flat)
-![Github forks](https://img.shields.io/github/forks/csfive/composing-programs-zh?style=flat)
-![CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
+[![GitHub stars](https://img.shields.io/github/stars/csfive/composing-programs-zh?style=flat)](https://github.com/csfive/composing-programs-zh/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/csfive/composing-programs-zh?style=flat)](https://github.com/csfive/composing-programs-zh/network)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-这是一个还在进行中的翻译项目，原书为伯克利课程 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 SICP 的 Python 版本。
+这是一个**还在进行中**的翻译项目，原书为伯克利课程 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 SICP 的 Python 版本。
 
 由于本人能力限制，如果
 
@@ -29,6 +29,7 @@
 | 2.1  | 引言         | 23/3/11      |
 | 3.1  | 引言         | 23/3/23      |
 | 4.1  | 引言         | 23/4/3       |
+| 4.3  | 声明式编程   | 23/4/16      |
 
 
 ## 贡献者列表
