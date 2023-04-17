@@ -53,5 +53,9 @@ export default {
         footer: {
             copyright: 'Copyright © 2022-present csfive'
         },
+
+        search: {
+            provider: 'local'
+        }
     }
 }
