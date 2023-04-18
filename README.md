@@ -1,8 +1,6 @@
 # Composing Programs
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
-![commit](https://img.shields.io/github/last-commit/csfive/composing-programs-zh)
-![commit per month](https://img.shields.io/github/commit-activity/m/csfive/composing-programs-zh)
 [![GitHub stars](https://img.shields.io/github/stars/csfive/composing-programs-zh?style=flat)](https://github.com/csfive/composing-programs-zh/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/csfive/composing-programs-zh?style=flat)](https://github.com/csfive/composing-programs-zh/network)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
