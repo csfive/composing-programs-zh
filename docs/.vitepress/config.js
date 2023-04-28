@@ -1,7 +1,8 @@
 import sicp from './sicp-python'
+import sicpProjects from './sicp-python-project'
 
 export default {
-    title: 'CSfive',
+    title: 'CSfive - Composing Programs',
     description: 'SICP Python 中文翻译',
     lang: 'zh-CN',
     lastUpdated: true,
@@ -31,8 +32,12 @@ export default {
         outlineTitle: '大纲',
         sidebar: {
             '/sicp-python/': sicp(),
+            '/sicp-python-projects/': sicpProjects(),
         },
-
+        nav: [
+            {text: '正文', link: '/sicp-python/intro'},
+            {text: '课程项目', link: '/sicp-python-projects/intro'}
+        ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/csfive' },
             { icon: 'discord', link: 'https://discord.gg/dqZaP5yAHT' },

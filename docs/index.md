@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: 开始阅读
       link: /sicp-python/intro
+    - theme: alt
+      text: GitHub
+      link: https://github.com/csfive/composing-programs-zh
   image:
     src: /logo.svg
     alt: logo
