@@ -10,7 +10,7 @@
 
 | 项目 | 标题         | 翻译完成时间 |
 | ---- | ------------ | ------------ |
-| 1  | Hog         |      |
+| 1  | 贪吃猪（Hog）         |      |
 
 
 如果对翻译，或者项目的学习有任何问题，可以通过 [`Discord`](https://discord.gg/dqZaP5yAHT) 或者 [GitHub issue](https://github.com/csfive/composing-programs-zh/issues) 和我们进行交流。
