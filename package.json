@@ -1,11 +1,10 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "SICP Python",
+  "description": "Composing programs Chinese version",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "dev": "vitepress dev",
+    "build": "vitepress build"
   },
   "devDependencies": {
     "@algolia/client-search": "^4.16.0",
@@ -18,7 +17,6 @@
     "vitepress": "1.0.0-alpha.75",
     "vue": "^3.2.45"
   },
-  "main": "index.js",
   "keywords": [
     "SICP Python"
   ],
