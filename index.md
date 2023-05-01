@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /sicp-python/intro
+      link: /sicp/intro
   image:
     src: /logo.svg
     alt: logo

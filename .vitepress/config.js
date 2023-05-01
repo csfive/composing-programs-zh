@@ -1,4 +1,4 @@
-import sicp from './sicp-python'
+import sicp from './sicp'
 
 export default {
     title: 'CSfive',
@@ -10,7 +10,9 @@ export default {
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
         ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css' }],
-        ['meta', { name: 'keywords', content: 'SICP, Python, CS61A' }],
+        ['meta', { name: 'keywords', content: 'SICP, Python, CS61A, Chinese Version, Translation, Composing Programs' }],
+        ['meta', { name: 'description', content: 'Composing Programs, aka SICP Python, Chinese version' }],
+        ['meta', { name: 'author', content: 'CSfive' }],
     ],
 
     markdown: {
@@ -30,7 +32,7 @@ export default {
     themeConfig: {
         outlineTitle: '大纲',
         sidebar: {
-            '/sicp-python/': sicp(),
+            '/sicp/': sicp(),
         },
 
         socialLinks: [

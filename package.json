@@ -1,7 +1,4 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
-  "description": "Composing programs Chinese version",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build"
@@ -16,10 +13,5 @@
     "markdown-it-texmath": "^1.0.0",
     "vitepress": "1.0.0-alpha.75",
     "vue": "^3.2.45"
-  },
-  "keywords": [
-    "SICP Python"
-  ],
-  "author": "CSfive",
-  "license": "MIT"
+  }
 }
