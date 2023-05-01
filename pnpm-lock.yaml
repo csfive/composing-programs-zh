@@ -1,27 +1,18 @@
 lockfileVersion: '6.0'
 
 devDependencies:
-  '@algolia/client-search':
-    specifier: ^4.16.0
-    version: 4.16.0
+  '@fontsource/ibm-plex-sans':
+    specifier: ^4.5.13
+    version: 4.5.13
   '@fontsource/jetbrains-mono':
     specifier: ^4.5.12
     version: 4.5.12
-  '@fontsource/noto-sans-sc':
-    specifier: ^4.5.12
-    version: 4.5.12
-  '@giscus/vue':
-    specifier: ^2.2.6
-    version: 2.2.6(vue@3.2.45)
   katex:
     specifier: ^0.16.4
     version: 0.16.4
-  markdown-it-imsize:
-    specifier: ^2.0.1
-    version: 2.0.1
-  markdown-it-mark:
-    specifier: ^3.0.1
-    version: 3.0.1
+  lxgw-wenkai-lite-webfont:
+    specifier: ^1.7.0
+    version: 1.7.0
   markdown-it-smartarrows:
     specifier: ^1.0.1
     version: 1.0.1
@@ -446,29 +437,12 @@ packages:
     dev: true
     optional: true
 
+  /@fontsource/ibm-plex-sans@4.5.13:
+    resolution: {integrity: sha512-7oDAqvuIArnMJck/JBqCnQZwqL4za+5xG+1Gu4enYbGcGqmUPktiuOy1i0N3XrzrNO70ZvsSt1Rdkxr2oemE6Q==}
+    dev: true
+
   /@fontsource/jetbrains-mono@4.5.12:
     resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
-    dev: true
-
-  /@fontsource/noto-sans-sc@4.5.12:
-    resolution: {integrity: sha512-KQ8Bn8KCGVS6RKrEw7fp65GJYpKyKEJ/TkePoKGxvNy7smSaHoKV7vrmpIiA46hkqQyYdENix/NKSprxs4Soyw==}
-    dev: true
-
-  /@giscus/vue@2.2.6(vue@3.2.45):
-    resolution: {integrity: sha512-UHPCzj/D8SMndtyd2iDEeGi7iRFy/43J7OOLi7I6qbQZVtYnhHg024CyufC9nuoRmjGoRFN2QodY3rrEAMiETg==}
-    peerDependencies:
-      vue: '>=3.2.0'
-    dependencies:
-      giscus: 1.2.6
-      vue: 3.2.45
-    dev: true
-
-  /@lit/reactive-element@1.5.0:
-    resolution: {integrity: sha512-fQh9FDK0LPTwDk+0HhSZEtb8K0LTN1wXerwpGrWA+a8tWulYRDLI4vQDWp4GOIsewn0572KYV/oZ3+492D7osA==}
-    dev: true
-
-  /@types/trusted-types@2.0.2:
-    resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
     dev: true
 
   /@types/web-bluetooth@0.0.16:
@@ -759,12 +733,6 @@ packages:
     dev: true
     optional: true
 
-  /giscus@1.2.6:
-    resolution: {integrity: sha512-VqMWmCdlUk9krX2M3oMgn9/Y6XEbRXRHtfhNTuRn/AdeGOeko54OFEIsizQ/nYWymuUNGZR48KGptCtYL77rtA==}
-    dependencies:
-      lit: 2.5.0
-    dev: true
-
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: true
@@ -776,25 +744,8 @@ packages:
       commander: 8.3.0
     dev: true
 
-  /lit-element@3.2.2:
-    resolution: {integrity: sha512-6ZgxBR9KNroqKb6+htkyBwD90XGRiqKDHVrW/Eh0EZ+l+iC+u+v+w3/BA5NGi4nizAVHGYvQBHUDuSmLjPp7NQ==}
-    dependencies:
-      '@lit/reactive-element': 1.5.0
-      lit-html: 2.5.0
-    dev: true
-
-  /lit-html@2.5.0:
-    resolution: {integrity: sha512-bLHosg1XL3JRUcKdSVI0sLCs0y1wWrj2sqqAN3cZ7bDDPNgmDHH29RV48x6Wz3ZmkxIupaE+z7uXSZ/pXWAO1g==}
-    dependencies:
-      '@types/trusted-types': 2.0.2
-    dev: true
-
-  /lit@2.5.0:
-    resolution: {integrity: sha512-DtnUP6vR3l4Q8nRPPNBD+UxbAhwJPeky+OVbi3pdgMqm0g57xFSl1Sj64D1rIB+nVNdiVVg8YxB0hqKjvdadZA==}
-    dependencies:
-      '@lit/reactive-element': 1.5.0
-      lit-element: 3.2.2
-      lit-html: 2.5.0
+  /lxgw-wenkai-lite-webfont@1.7.0:
+    resolution: {integrity: sha512-VcQYNRpdXAxaZsJ18rfT1mmAreGqkIFNZ/9pdVLbT2Tkb+2lLWJDXq4zYxMEk9AcecSnxO31R2LHh5ieLlxjRg==}
     dev: true
 
   /magic-string@0.25.9:
@@ -805,14 +756,6 @@ packages:
 
   /mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
-    dev: true
-
-  /markdown-it-imsize@2.0.1:
-    resolution: {integrity: sha512-5SH90ademqcR8ifQCBXRCfIR4HGfZZOh5pO0j2TglulfSQH+SBXM4Iw/QlTUbSoUwVZArCYgECoMvktDS2kP3w==}
-    dev: true
-
-  /markdown-it-mark@3.0.1:
-    resolution: {integrity: sha512-HyxjAu6BRsdt6Xcv6TKVQnkz/E70TdGXEFHRYBGLncRE9lBFwDNLVtFojKxjJWgJ+5XxUwLaHXy+2sGBbDn+4A==}
     dev: true
 
   /markdown-it-smartarrows@1.0.1:
