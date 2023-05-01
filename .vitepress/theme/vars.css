@@ -123,20 +123,3 @@
 .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand) !important;
 }
-
-/********************************************************
-*                       <mark>                          *
-********************************************************/
-mark {
-    background-color: inherit;
-    color: var(--vp-c-text-1);
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: var(--vp-c-brand);
-    text-underline-offset: 4px;
-}
-
-li mark,
-ul mark {
-    text-underline-offset: 2px;
-}

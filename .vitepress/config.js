@@ -22,9 +22,7 @@ export default {
             dark: 'github-dark'
         },
         config: (md) => {
-            md.use(require('markdown-it-imsize'))
-                .use(require('markdown-it-mark'))
-                .use(require('markdown-it-smartarrows'))
+            md.use(require('markdown-it-smartarrows'))
                 .use(require('markdown-it-texmath'), { engine: require('katex'), delimiters: 'dollars', katexOptions: { macros: { "\\RR": "\\mathbb{R}" } } })
         }
     },

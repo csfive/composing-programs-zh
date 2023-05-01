@@ -9,8 +9,6 @@
     "@fontsource/noto-sans-sc": "^4.5.12",
     "@giscus/vue": "^2.2.6",
     "katex": "^0.16.4",
-    "markdown-it-imsize": "^2.0.1",
-    "markdown-it-mark": "^3.0.1",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
     "vitepress": "1.0.0-alpha.75",
