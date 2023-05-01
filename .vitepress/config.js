@@ -16,10 +16,9 @@ export default {
     ],
 
     markdown: {
-        // lineNumbers: true,
         theme: {
-            light: 'github-light',
-            dark: 'github-dark'
+            light: 'vitesse-light',
+            dark: 'vitesse-dark'
         },
         config: (md) => {
             md.use(require('markdown-it-smartarrows'))
@@ -51,7 +50,7 @@ export default {
         },
 
         footer: {
-            copyright: 'Copyright © 2022-present csfive'
+            copyright: 'Copyright © 2022-PRESENT csfive'
         },
 
         search: {
