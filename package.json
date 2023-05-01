@@ -5,6 +5,8 @@
   },
   "devDependencies": {
     "@algolia/client-search": "^4.16.0",
+    "@fontsource/jetbrains-mono": "^4.5.12",
+    "@fontsource/noto-sans-sc": "^4.5.12",
     "@giscus/vue": "^2.2.6",
     "katex": "^0.16.4",
     "markdown-it-imsize": "^2.0.1",

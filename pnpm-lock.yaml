@@ -4,6 +4,12 @@ devDependencies:
   '@algolia/client-search':
     specifier: ^4.16.0
     version: 4.16.0
+  '@fontsource/jetbrains-mono':
+    specifier: ^4.5.12
+    version: 4.5.12
+  '@fontsource/noto-sans-sc':
+    specifier: ^4.5.12
+    version: 4.5.12
   '@giscus/vue':
     specifier: ^2.2.6
     version: 2.2.6(vue@3.2.45)
@@ -439,6 +445,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/jetbrains-mono@4.5.12:
+    resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
+    dev: true
+
+  /@fontsource/noto-sans-sc@4.5.12:
+    resolution: {integrity: sha512-KQ8Bn8KCGVS6RKrEw7fp65GJYpKyKEJ/TkePoKGxvNy7smSaHoKV7vrmpIiA46hkqQyYdENix/NKSprxs4Soyw==}
+    dev: true
 
   /@giscus/vue@2.2.6(vue@3.2.45):
     resolution: {integrity: sha512-UHPCzj/D8SMndtyd2iDEeGi7iRFy/43J7OOLi7I6qbQZVtYnhHg024CyufC9nuoRmjGoRFN2QodY3rrEAMiETg==}
