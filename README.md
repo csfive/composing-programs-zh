@@ -2,8 +2,6 @@
 
 <div style="display: flex; margin: 1rem 0; gap: 0.5rem;">
   <img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" />
-  <img src="https://img.shields.io/github/stars/csfive/composing-programs-zh?style=flat" />
-  <img src="https://img.shields.io/github/forks/csfive/composing-programs-zh?style=flat" />
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue" />
 </div>
 
@@ -29,6 +27,7 @@
 | 1.6  | 高阶函数         | 23/03/07 |
 | 1.7  | 递归函数         | 23/03/07 |
 | 2.1  | 引言             | 23/03/11 |
+| 2.2  | 数据抽象         | 23/05/02 |
 | 2.3  | 序列             |          |
 | 2.4  | 可变数据         |          |
 | 2.5  | 面向对象编程     |          |
