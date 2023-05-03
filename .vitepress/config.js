@@ -1,4 +1,4 @@
-import sicp from './sicp'
+import { sicp } from './sicp'
 
 export default {
     title: 'CSfive',
@@ -10,8 +10,8 @@ export default {
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
         ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css' }],
-        ['meta', { name: 'keywords', content: 'SICP, Python, CS61A, Chinese Version, Translation, Composing Programs' }],
-        ['meta', { name: 'description', content: 'Composing Programs, aka SICP Python, Chinese version' }],
+        ['meta', { name: 'keywords', content: 'SICP, Python, CS61A, Chinese Version, Translation, Composing Programs, 中文，翻译' }],
+        ['meta', { name: 'description', content: 'Composing Programs, aka SICP Python, Chinese version, 中文翻译版本' }],
         ['meta', { name: 'author', content: 'CSfive' }],
     ],
 
@@ -29,7 +29,7 @@ export default {
     themeConfig: {
         outlineTitle: '大纲',
         sidebar: {
-            '/sicp/': sicp(),
+            '/sicp/': sicp,
         },
 
         socialLinks: [
@@ -38,7 +38,7 @@ export default {
         ],
 
         editLink: {
-            pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/docs/:path',
+            pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/:path',
             text: '在 GitHub 上修改此页'
         },
 
