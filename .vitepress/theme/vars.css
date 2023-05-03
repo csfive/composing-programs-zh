@@ -9,7 +9,7 @@
         system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
         'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --vp-font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+    --vp-font-family-mono: "JetBrains Mono", "LXGW WenKai Lite", ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
         Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
