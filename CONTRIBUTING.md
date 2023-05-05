@@ -1,1 +1,0 @@
-请参考 [贡献指南](https://csfive.netlify.app/about/contributing)

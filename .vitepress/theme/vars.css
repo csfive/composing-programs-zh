@@ -1,14 +1,8 @@
-@import 'lxgw-wenkai-lite-webfont/style.css';
-
 /**
  * Typography
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-font-family-base: "IBM Plex Sans", "LXGW WenKai Lite", 'Chinese Quotes', 'Inter var', 'Inter', ui-sans-serif,
-        system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --vp-font-family-mono: "JetBrains Mono", "LXGW WenKai Lite", ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
         Consolas, 'Liberation Mono', 'Courier New', monospace;
 }

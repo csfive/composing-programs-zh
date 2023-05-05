@@ -1,18 +1,12 @@
 lockfileVersion: '6.0'
 
 devDependencies:
-  '@fontsource/ibm-plex-sans':
-    specifier: ^4.5.13
-    version: 4.5.13
   '@fontsource/jetbrains-mono':
     specifier: ^4.5.12
     version: 4.5.12
   katex:
     specifier: ^0.16.4
     version: 0.16.4
-  lxgw-wenkai-lite-webfont:
-    specifier: ^1.7.0
-    version: 1.7.0
   markdown-it-smartarrows:
     specifier: ^1.0.1
     version: 1.0.1
@@ -437,10 +431,6 @@ packages:
     dev: true
     optional: true
 
-  /@fontsource/ibm-plex-sans@4.5.13:
-    resolution: {integrity: sha512-7oDAqvuIArnMJck/JBqCnQZwqL4za+5xG+1Gu4enYbGcGqmUPktiuOy1i0N3XrzrNO70ZvsSt1Rdkxr2oemE6Q==}
-    dev: true
-
   /@fontsource/jetbrains-mono@4.5.12:
     resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
     dev: true
@@ -742,10 +732,6 @@ packages:
     hasBin: true
     dependencies:
       commander: 8.3.0
-    dev: true
-
-  /lxgw-wenkai-lite-webfont@1.7.0:
-    resolution: {integrity: sha512-VcQYNRpdXAxaZsJ18rfT1mmAreGqkIFNZ/9pdVLbT2Tkb+2lLWJDXq4zYxMEk9AcecSnxO31R2LHh5ieLlxjRg==}
     dev: true
 
   /magic-string@0.25.9:

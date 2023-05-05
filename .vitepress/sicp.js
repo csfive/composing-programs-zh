@@ -1,10 +1,8 @@
 export const sicp = [
-    {
-        text: '简介', link: '/'
-    },
+    { text: '简介', link: '/' },
     {
         text: '第一章：使用函数构建抽象',
-        collapsed: true,
+        collapsed: false,
         items: [
             { text: '1.1 开始', link: '/1/1' },
             { text: '1.2 编程要素', link: '/1/2' },
@@ -15,7 +13,6 @@ export const sicp = [
             { text: '1.7 递归函数', link: '/1/7' },
         ]
     },
-
     {
         text: '第二章：使用数据构建抽象',
         collapsed: true,
@@ -31,7 +28,6 @@ export const sicp = [
             { text: '2.9 递归对象', link: '/2/9' },
         ]
     },
-
     {
         text: '第三章：计算机程序的解释',
         collapsed: true,
@@ -43,7 +39,6 @@ export const sicp = [
             { text: '3.5 抽象语言的解释器', link: '/3/5' },
         ]
     },
-    
     {
         text: '第四章：数据处理',
         collapsed: true,
