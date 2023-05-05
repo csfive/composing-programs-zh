@@ -1,11 +1,11 @@
 # Composing Programs
 
-<div style="display: flex; margin: 1rem 0; gap: 0.5rem;">
+<div style="display: flex; margin: 1.2rem 0; gap: 0.6rem;">
   <img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" />
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue" />
 </div>
 
-这是一个**还在进行中**的翻译项目，原书为伯克利课程 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 SICP 的 Python 版本。
+这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
 由于本人能力限制，如果
 

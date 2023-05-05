@@ -5,7 +5,8 @@ export default {
     description: 'SICP Python 中文翻译',
     lang: 'zh-CN',
     lastUpdated: true,
-    cleanUrls: 'without-subfolders',
+    cleanUrls: true,
+    srcDir: 'sicp',
 
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
@@ -27,11 +28,10 @@ export default {
     },
 
     themeConfig: {
-        outlineTitle: '大纲',
         sidebar: {
-            '/sicp/': sicp,
+            '/': sicp,
         },
-
+        
         socialLinks: [
             { icon: 'github', link: 'https://github.com/csfive' },
             { icon: 'discord', link: 'https://discord.gg/dqZaP5yAHT' },
@@ -41,6 +41,8 @@ export default {
             pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/:path',
             text: '在 GitHub 上修改此页'
         },
+
+        outlineTitle: '大纲',
 
         lastUpdatedText: '上次更新时间',
 
