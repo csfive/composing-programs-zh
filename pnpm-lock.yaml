@@ -1,9 +1,13 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@fontsource/jetbrains-mono':
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^5.0.2
+    version: 5.0.2
   katex:
     specifier: ^0.16.7
     version: 0.16.7
@@ -434,8 +438,8 @@ packages:
     dev: true
     optional: true
 
-  /@fontsource/jetbrains-mono@5.0.0:
-    resolution: {integrity: sha512-+urFA/HPgYCzKQLiZbtzWIEyHgoJavVAau9B2mRndqDoPqfoFofEi3tj+VdRyG06ew2L3RTQIoZZLfrS2Fk4iQ==}
+  /@fontsource/jetbrains-mono@5.0.2:
+    resolution: {integrity: sha512-2otc4BSOJ94gFkG4o7fjmARaIcI76wmMIyyY7SbPnM2EqA8lr5I/cu9KofoAUSc5haBJExK6DlWGVMfRGKnDIA==}
     dev: true
 
   /@giscus/vue@2.2.8(vue@3.3.4):
