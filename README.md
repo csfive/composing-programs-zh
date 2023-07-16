@@ -1,9 +1,7 @@
-# Composing Programs
+# COMPOSING PROGRAMS
 
-<div style="display: flex; margin: 1.2rem 0; gap: 0.6rem;">
-  <img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" />
-  <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue" />
-</div>
+<img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" />
+<img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue" />
 
 这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
@@ -31,7 +29,7 @@
 | 2.3  | 序列             | 23/05/11 |
 | 2.4  | 可变数据         | 23/06/01 |
 | 2.5  | 面向对象编程     | 23/06/16 |
-| 2.6  | 实现类和对象     |          |
+| 2.6  | 实现类和对象     | 23/07/16 |
 | 2.7  | 对象抽象         |          |
 | 2.8  | 效率             |          |
 | 2.9  | 递归对象         |          |
