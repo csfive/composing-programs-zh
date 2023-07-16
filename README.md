@@ -1,11 +1,10 @@
-# COMPOSING PROGRAMS
-
-<img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" />
-<img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue" />
+<h1 align="center" style="text-align: center">
+  COMPOSING PROGRAMS
+</h1>
 
 这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
-由于本人能力限制，如果
+但由于本人能力限制，如果
 
 - 您发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
 - 您觉得自己英语不错，想加快翻译进度，可以查看 [共建计划](https://github.com/csfive/composing-programs-zh/issues/3) 领取对应章节后提交 PR
