@@ -3,10 +3,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-font-family-mono: "JetBrains Mono", "LXGW WenKai Lite", ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
-        Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --vp-font-family-mono: "JetBrains Mono", "LXGW WenKai Lite", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
 
 /**
  * Customize default theme styling by overriding CSS variables:
@@ -18,56 +16,54 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-c-gutter: var(--vp-c-divider);
-    --vp-code-block-bg: rgba(125, 125, 125, 0.04);
-    --vp-code-tab-divider: var(--vp-c-divider);
-    --vp-code-copy-code-bg: rgba(125, 125, 125, 0.1);
-    --vp-code-copy-code-hover-bg: rgba(125, 125, 125, 0.2);
-    --vp-c-disabled-bg: rgba(125, 125, 125, 0.2);
-    --vp-code-tab-text-color: var(--vp-c-text-2);
-    --vp-code-tab-active-text-color: var(--vp-c-text-1);
-    --vp-code-tab-hover-text-color: var(--vp-c-text-1);
-    --vp-code-copy-code-active-text: var(--vp-c-text-2);
-    --vp-c-text-dark-3: rgba(56, 56, 56, 0.8);
-    --vp-c-brand-lightest: var(--vp-c-brand);
+  --vp-c-gutter: var(--vp-c-divider);
+  --vp-code-block-bg: rgba(125, 125, 125, 0.04);
+  --vp-code-tab-divider: var(--vp-c-divider);
+  --vp-code-copy-code-bg: rgba(125, 125, 125, 0.1);
+  --vp-code-copy-code-hover-bg: rgba(125, 125, 125, 0.2);
+  --vp-c-disabled-bg: rgba(125, 125, 125, 0.2);
+  --vp-code-tab-text-color: var(--vp-c-text-2);
+  --vp-code-tab-active-text-color: var(--vp-c-text-1);
+  --vp-code-tab-hover-text-color: var(--vp-c-text-1);
+  --vp-code-copy-code-active-text: var(--vp-c-text-2);
+  --vp-c-text-dark-3: rgba(56, 56, 56, 0.8);
+  --vp-c-brand-lightest: var(--vp-c-brand);
 
-    --vp-c-highlight-bg: var(--vp-c-brand-light);
-    --vp-c-highlight-text: var(--vp-c-bg);
+  --vp-c-highlight-bg: var(--vp-c-brand-light);
+  --vp-c-highlight-text: var(--vp-c-bg);
 }
 
 .dark {
-    --vp-code-block-bg: rgba(0, 0, 0, 0.2);
-    --vp-c-text-code: #c0cec0;
-    --vp-code-tab-text-color: var(--vp-c-text-dark-2);
-    --vp-code-tab-active-text-color: var(--vp-c-text-dark-1);
-    --vp-code-tab-hover-text-color: var(--vp-c-text-dark-1);
-    --vp-code-copy-code-active-text: var(--vp-c-text-dark-2);
-    --vp-c-text-dark-3: var(--vp-c-text-dark-2);
+  --vp-code-block-bg: rgba(0, 0, 0, 0.2);
+  --vp-c-text-code: #c0cec0;
+  --vp-code-tab-text-color: var(--vp-c-text-dark-2);
+  --vp-code-tab-active-text-color: var(--vp-c-text-dark-1);
+  --vp-code-tab-hover-text-color: var(--vp-c-text-dark-1);
+  --vp-code-copy-code-active-text: var(--vp-c-text-dark-2);
+  --vp-c-text-dark-3: var(--vp-c-text-dark-2);
 }
-
 
 /**
    * Component: Button
    * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-button-brand-border: var(--vp-c-brand-light);
-    --vp-button-brand-text: var(--vp-c-white);
-    --vp-button-brand-bg: var(--vp-c-brand);
-    --vp-button-brand-hover-border: var(--vp-c-brand-light);
-    --vp-button-brand-hover-text: var(--vp-c-white);
-    --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-    --vp-button-brand-active-border: var(--vp-c-brand-light);
-    --vp-button-brand-active-text: var(--vp-c-white);
-    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 }
-
 
 /* Safari has a very bad performance on gradient and filter */
 .browser-safari,
 .browser-firefox {
-    --vp-home-hero-image-background-image: transparent;
-    --vp-home-hero-image-filter: '';
+  --vp-home-hero-image-background-image: transparent;
+  --vp-home-hero-image-filter: "";
 }
 
 /**
@@ -75,15 +71,15 @@
    * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-custom-block-tip-border: var(--vp-c-brand);
-    --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
 }
 
 .dark {
-    --vp-custom-block-tip-border: var(--vp-c-brand);
-    --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
 }
 
 /**
@@ -91,5 +87,5 @@
    * -------------------------------------------------------------------------- */
 
 .DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand) !important;
+  --docsearch-primary-color: var(--vp-c-brand) !important;
 }
