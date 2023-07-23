@@ -1,5 +1,5 @@
-<h1 align="center" style="text-align: center">
-  COMPOSING PROGRAMS
+<h1 align="center" style="text-align: center"> 
+  COMPOSING PROGRAMS <img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" alt="Netlify Status">
 </h1>
 
 这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
@@ -29,8 +29,8 @@
 | 2.4  | 可变数据         | 23/06/01 |
 | 2.5  | 面向对象编程     | 23/06/16 |
 | 2.6  | 实现类和对象     | 23/07/16 |
-| 2.7  | 对象抽象         |          |
-| 2.8  | 效率             |          |
+| 2.7  | 对象抽象         | 23/07/18 |
+| 2.8  | 效率             | 23/07/23 |
 | 2.9  | 递归对象         |          |
 | 3.1  | 引言             | 23/03/23 |
 | 3.2  | 函数式编程       |          |
