@@ -1,5 +1,5 @@
 <h1 align="center" style="text-align: center"> 
-  COMPOSING PROGRAMS <img src="https://api.netlify.com/api/v1/badges/f3b9b563-03b5-484b-a4d1-ae24463ab40c/deploy-status" alt="Netlify Status">
+  COMPOSING PROGRAMS
 </h1>
 
 这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
