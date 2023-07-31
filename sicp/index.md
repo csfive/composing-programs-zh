@@ -2,7 +2,7 @@
   COMPOSING PROGRAMS
 </h1>
 
-这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](http://composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
+这是一个**还在进行中**的翻译项目，原书为伯克利 CS61A 的配套教材 [composing programs](https://www.composingprograms.com/)，也是 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
 但由于本人能力限制，如果
 
