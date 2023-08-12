@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@fontsource/jetbrains-mono':
-    specifier: ^5.0.5
-    version: 5.0.5
+    specifier: ^5.0.8
+    version: 5.0.8
   katex:
     specifier: ^0.16.8
     version: 0.16.8
@@ -463,8 +463,8 @@ packages:
     dev: true
     optional: true
 
-  /@fontsource/jetbrains-mono@5.0.5:
-    resolution: {integrity: sha512-Smuppiu7QzNCatnccTXdUYbxUmEVywklM/hntWKhig0Q+hm7SYzQpNpxCR1Gm8npE8jpaKslhIsBPGuTBGZgdA==}
+  /@fontsource/jetbrains-mono@5.0.8:
+    resolution: {integrity: sha512-ck4x0rKG9atF1Kvsb8t8c7IXr9UNSQ3BGMWVv0kw/OxF3ldfg11Sg3AxJnOkl/xeXXFwgR+Y9yuMmnK+skTElQ==}
     dev: true
 
   /@giscus/vue@2.2.8(vue@3.3.4):
