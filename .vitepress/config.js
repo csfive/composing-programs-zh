@@ -1,7 +1,7 @@
 import { sicp } from "./sicp"
 
 export default {
-  title: "CSfive",
+  title: "CS Five",
   description: "SICP Python 中文翻译",
   lang: "zh-CN",
   lastUpdated: true,
@@ -13,7 +13,7 @@ export default {
     ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" }],
     ["meta", { name: "keywords", content: "SICP, Python, CS61A, Chinese Version, Translation, Composing Programs, 中文，翻译" }],
     ["meta", { name: "description", content: "Composing Programs, aka SICP Python, Chinese version, 中文翻译版本" }],
-    ["meta", { name: "author", content: "CSfive" }],
+    ["meta", { name: "author", content: "CS Five" }],
   ],
 
   markdown: {
@@ -51,7 +51,7 @@ export default {
     },
 
     footer: {
-      copyright: "Copyright © 2022-PRESENT csfive",
+      copyright: "Copyright © 2022-PRESENT CS Five",
     },
 
     search: {

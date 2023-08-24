@@ -1,6 +1,4 @@
-<h1 align="center" style="text-align: center"> 
-  COMPOSING PROGRAMS
-</h1>
+# COMPOSING PROGRAMS
 
 这是一个翻译项目，原书为伯克利 CS61A 的配套教材 [Composing Programs](https://www.composingprograms.com/)，也是计算机一大圣经 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
