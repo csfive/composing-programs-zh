@@ -4,10 +4,9 @@
 
 这是一个翻译项目，原书为伯克利 CS61A 的配套教材 [Composing Programs](https://www.composingprograms.com/)，也是计算机一大圣经 [SICP](https://book.douban.com/subject/1148282/) 的 Python 版本。
 
-如果
+项目现在为维护状态，如果您发现了翻译的错漏或含混之处，可以提交 issue 或者 PR，我会抽时间 review 或者修改。
 
-- 您发现了翻译的错漏或含混之处，可以向关联的 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或者 PR
-- 您觉得我做的还不错，可以关注 [本组织](https://github.com/csfive) 或 [本人](https://github.com/mancuoj)，并给该仓库一个 star ⭐
+另外如果您觉得我做的还不错，可以给一个 star ⭐，感谢！
 
 ## 贡献者列表
 
