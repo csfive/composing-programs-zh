@@ -2,11 +2,13 @@ import { sicp } from './sicp'
 
 export default {
   title: 'CS Five',
+  titleTemplate: ':title',
   description: 'SICP Python 中文翻译',
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  srcDir: 'sicp',
+  srcDir: './sicp',
+  appearance: 'dark',
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css' }],
@@ -24,6 +26,7 @@ export default {
     },
   },
   themeConfig: {
+    logo: '/logo.svg',
     sidebar: {
       '/': sicp,
     },
