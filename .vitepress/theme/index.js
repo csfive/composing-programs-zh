@@ -1,10 +1,8 @@
 import DefaultTheme from "vitepress/theme"
 import giscusTalk from "vitepress-plugin-comment-with-giscus"
 import { useData, useRoute } from "vitepress"
-import "./rainbow.css"
 import "./vars.css"
 import "./overrides.css"
-import "@fontsource/jetbrains-mono"
 
 export default {
   ...DefaultTheme,
