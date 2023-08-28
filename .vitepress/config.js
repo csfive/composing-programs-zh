@@ -23,7 +23,6 @@ export default {
       md.use(require('markdown-it-smartarrows')).use(require('markdown-it-texmath'), { engine: require('katex'), delimiters: 'dollars', katexOptions: { macros: { '\\RR': '\\mathbb{R}' } } })
     },
   },
-
   themeConfig: {
     sidebar: {
       '/': sicp,
