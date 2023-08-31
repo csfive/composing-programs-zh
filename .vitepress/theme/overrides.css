@@ -1,3 +1,17 @@
+/* html ::-webkit-scrollbar-track-piece {
+  background: var(--vp-c-default-1);
+} */
+
+html ::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-3);
+  border-radius: 10px;
+}
+
 .vp-code-group .tabs label {
   background-color: transparent;
 }
