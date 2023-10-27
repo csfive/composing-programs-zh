@@ -4,11 +4,11 @@
     "build": "vitepress build"
   },
   "devDependencies": {
-    "katex": "^0.16.8",
+    "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
     "vitepress": "1.0.0-rc.9",
-    "vitepress-plugin-comment-with-giscus": "^1.1.7",
-    "vue": "^3.3.4"
+    "vitepress-plugin-comment-with-giscus": "^1.1.9",
+    "vue": "^3.3.7"
   }
 }
