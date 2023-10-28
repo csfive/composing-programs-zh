@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "katex": "^0.16.9",
+    "markdown-it-pangu": "^1.0.2",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
     "vitepress": "1.0.0-rc.9",
