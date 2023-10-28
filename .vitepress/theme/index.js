@@ -18,6 +18,8 @@ export default {
         repoId: 'R_kgDOI7ryQw',
         category: 'Announcements',
         categoryId: 'DIC_kwDOI7ryQ84CWSPL',
+        mapping: 'title',
+        strict: '1',
       },
       {
         frontmatter,
