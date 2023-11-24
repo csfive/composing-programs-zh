@@ -22,9 +22,11 @@ export default {
       dark: 'vitesse-dark',
     },
     config: (md) => {
-      md.use(require('markdown-it-smartarrows'))
-        .use(require('markdown-it-texmath'), { engine: require('katex'), delimiters: 'dollars', katexOptions: { macros: { '\\RR': '\\mathbb{R}' } } })
-        .use(require('markdown-it-pangu'))
+      md.use(require('markdown-it-smartarrows')).use(require('markdown-it-texmath'), {
+        engine: require('katex'),
+        delimiters: 'dollars',
+        katexOptions: { macros: { '\\RR': '\\mathbb{R}' } },
+      })
     },
   },
   themeConfig: {
