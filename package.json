@@ -12,6 +12,6 @@
     "taze": "^0.12.1",
     "vitepress": "1.0.0-rc.9",
     "vitepress-plugin-comment-with-giscus": "^1.1.10",
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   }
 }
