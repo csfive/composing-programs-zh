@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^1.0.0
     version: 1.0.0
   taze:
-    specifier: ^0.12.1
-    version: 0.12.1
+    specifier: ^0.12.2
+    version: 0.12.2
   vitepress:
     specifier: 1.0.0-rc.9
     version: 1.0.0-rc.9(@algolia/client-search@4.19.1)(search-insights@2.6.0)
@@ -1930,8 +1930,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /taze@0.12.1:
-    resolution: {integrity: sha512-SE5grT+y5eePzr7Zi1/87BOveLVBUEDLxOx3Lc2DfRYghxNlj7RxXPs4PBSOjr3ED5E+lrmMRNk0nrCWIjH8Yg==}
+  /taze@0.12.2:
+    resolution: {integrity: sha512-k6ZGUdqTcSmOQ181feZeizgPHEQLPlbK6ed8vCE3TJo+EWJ8DuS452b4uKa2rSdX4GlgdL8rBy7UpDMYrITOGg==}
     hasBin: true
     dependencies:
       '@antfu/ni': 0.21.10
