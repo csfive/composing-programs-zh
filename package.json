@@ -5,13 +5,15 @@
     "deps:update": "taze -wi",
     "deps:upgrade": "taze major -wi"
   },
+  "dependencies": {
+    "vitepress": "1.0.0-rc.9",
+    "vue": "^3.3.9",
+    "vitepress-plugin-comment-with-giscus": "^1.1.11"
+  },
   "devDependencies": {
     "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
-    "taze": "^0.13.0",
-    "vitepress": "1.0.0-rc.9",
-    "vitepress-plugin-comment-with-giscus": "^1.1.10",
-    "vue": "^3.3.9"
+    "taze": "^0.13.0"
   }
 }
