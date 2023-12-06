@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "vitepress": "1.0.0-rc.9",
-    "vue": "^3.3.9",
-    "vitepress-plugin-comment-with-giscus": "^1.1.11"
+    "vitepress-plugin-comment-with-giscus": "^1.1.11",
+    "vue": "^3.3.10"
   },
   "devDependencies": {
     "katex": "^0.16.9",
