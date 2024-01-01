@@ -8,12 +8,12 @@
   "dependencies": {
     "vitepress": "1.0.0-rc.9",
     "vitepress-plugin-comment-with-giscus": "^1.1.11",
-    "vue": "^3.3.10"
+    "vue": "^3.4.3"
   },
   "devDependencies": {
     "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
-    "taze": "^0.13.0"
+    "taze": "^0.13.1"
   }
 }
