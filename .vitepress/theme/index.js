@@ -1,8 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 import { useData, useRoute } from 'vitepress'
-import './vars.css'
-import './overrides.css'
 
 export default {
   ...DefaultTheme,
