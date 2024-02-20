@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build"
+    "build": "vitepress build",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "vitepress": "1.0.0-rc.35",
@@ -11,6 +12,11 @@
   "devDependencies": {
     "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
-    "markdown-it-texmath": "^1.0.0"
+    "markdown-it-texmath": "^1.0.0",
+    "prettier": "^3.2.5"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "all"
   }
 }
