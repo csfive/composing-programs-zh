@@ -2,21 +2,19 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "format": "prettier --write ."
+    "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "vitepress": "1.0.0-rc.35",
+    "vitepress": "1.0.0-rc.45",
     "vitepress-plugin-comment-with-giscus": "^1.1.12",
-    "vue": "^3.4.19"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@mancuoj/prettier-config": "^0.0.1",
     "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
     "prettier": "^3.2.5"
   },
-  "prettier": {
-    "semi": false,
-    "trailingComma": "all"
-  }
+  "prettier": "@mancuoj/prettier-config"
 }
