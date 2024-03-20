@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@mancuoj/prettier-config':
-    specifier: ^0.0.1
-    version: 0.0.1(prettier@3.2.5)
+    specifier: ^0.0.3
+    version: 0.0.3(prettier@3.2.5)
   katex:
     specifier: ^0.16.9
     version: 0.16.9
@@ -468,8 +468,8 @@ packages:
       '@lit-labs/ssr-dom-shim': 1.1.1
     dev: false
 
-  /@mancuoj/prettier-config@0.0.1(prettier@3.2.5):
-    resolution: {integrity: sha512-to1DBRTI8hfzoMuXRW3sQB7y1axIW/+fc+h7A7yiAH8fbJPFEIdOgePhf1rxyB3xGsQ0qexAyoWCfEk7Xe5zsA==}
+  /@mancuoj/prettier-config@0.0.3(prettier@3.2.5):
+    resolution: {integrity: sha512-zeCzu92AWzoNVoFtmFykCI+1bP2mZNaxjev+/kIVv3T71WkPmRB0s5arItTH89s00pj1vQSp/sWE9dETmuTdHQ==}
     peerDependencies:
       prettier: ^3.2.5
     dependencies:

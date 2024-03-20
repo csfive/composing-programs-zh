@@ -10,7 +10,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "^0.0.1",
+    "@mancuoj/prettier-config": "^0.0.3",
     "katex": "^0.16.9",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
