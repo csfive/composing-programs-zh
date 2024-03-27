@@ -5,14 +5,14 @@
     "format": "prettier --cache --write ."
   },
   "devDependencies": {
-    "vue": "^3.4.21",
-    "vitepress": "^1.0.1",
-    "vitepress-plugin-comment-with-giscus": "^1.1.12",
     "@mancuoj/prettier-config": "^0.0.3",
-    "katex": "^0.16.9",
+    "katex": "^0.16.10",
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "vitepress": "^1.0.1",
+    "vitepress-plugin-comment-with-giscus": "^1.1.12",
+    "vue": "^3.4.21"
   },
   "prettier": "@mancuoj/prettier-config"
 }
