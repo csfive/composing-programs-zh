@@ -34,7 +34,7 @@ export default {
     ['meta', { name: 'author', content: 'CS Five' }],
   ],
   markdown: {
-    theme: { light: 'vitesse-light', dark: 'vitesse-dark' },
+    theme: { light: 'github-light', dark: 'github-dark' },
     config: (md) => {
       md.use(require('markdown-it-smartarrows')).use(require('markdown-it-texmath'), {
         engine: require('katex'),
