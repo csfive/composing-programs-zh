@@ -21,16 +21,14 @@ export default {
       'meta',
       {
         name: 'keywords',
-        content:
-          'SICP, Python, CS61A, Chinese Version, Translation, Composing Programs, 中文，翻译',
+        content: 'SICP, Python, CS61A, Chinese Version, Translation, Composing Programs, 中文，翻译',
       },
     ],
     [
       'meta',
       {
         name: 'description',
-        content:
-          'Composing Programs, aka SICP Python, Chinese version, 中文翻译版本',
+        content: 'Composing Programs, aka SICP Python, Chinese version, 中文翻译版本',
       },
     ],
     ['meta', { name: 'author', content: 'CS Five' }],
@@ -38,14 +36,11 @@ export default {
   markdown: {
     theme: { light: 'vitesse-light', dark: 'vitesse-dark' },
     config: (md) => {
-      md.use(require('markdown-it-smartarrows')).use(
-        require('markdown-it-texmath'),
-        {
-          engine: require('katex'),
-          delimiters: 'dollars',
-          katexOptions: { macros: { '\\RR': '\\mathbb{R}' } },
-        },
-      )
+      md.use(require('markdown-it-smartarrows')).use(require('markdown-it-texmath'), {
+        engine: require('katex'),
+        delimiters: 'dollars',
+        katexOptions: { macros: { '\\RR': '\\mathbb{R}' } },
+      })
     },
   },
   themeConfig: {
@@ -56,8 +51,7 @@ export default {
     outlineTitle: '大纲',
     lastUpdatedText: '上次更新时间',
     editLink: {
-      pattern:
-        'https://github.com/csfive/composing-programs-zh/edit/main/sicp/:path',
+      pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/sicp/:path',
       text: '在 GitHub 上修改此页',
     },
     docFooter: { prev: '上一页', next: '下一页' },
