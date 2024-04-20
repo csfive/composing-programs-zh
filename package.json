@@ -10,9 +10,9 @@
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-texmath": "^1.0.0",
     "prettier": "^3.2.5",
-    "vitepress": "^1.1.0",
+    "vitepress": "^1.1.3",
     "vitepress-plugin-comment-with-giscus": "^1.1.12",
-    "vue": "^3.4.21"
+    "vue": "^3.4.23"
   },
   "prettier": "@mancuoj/prettier-config"
 }
