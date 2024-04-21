@@ -6,9 +6,7 @@
   },
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.1.4",
-    "katex": "^0.16.10",
-    "markdown-it-smartarrows": "^1.0.1",
-    "markdown-it-texmath": "^1.0.0",
+    "markdown-it-mathjax3": "^4.3.2",
     "prettier": "^3.2.5",
     "vitepress": "^1.1.3",
     "vitepress-plugin-comment-with-giscus": "^1.1.12",

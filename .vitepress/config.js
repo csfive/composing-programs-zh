@@ -11,13 +11,6 @@ export default {
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css',
-      },
-    ],
-    [
       'meta',
       {
         name: 'keywords',
@@ -35,13 +28,7 @@ export default {
   ],
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' },
-    config: (md) => {
-      md.use(require('markdown-it-smartarrows')).use(require('markdown-it-texmath'), {
-        engine: require('katex'),
-        delimiters: 'dollars',
-        katexOptions: { macros: { '\\RR': '\\mathbb{R}' } },
-      })
-    },
+    math: true,
   },
   themeConfig: {
     logo: '/logo.svg',
