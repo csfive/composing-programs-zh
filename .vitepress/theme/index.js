@@ -1,7 +1,7 @@
-import DefaultTheme from 'vitepress/theme'
-import giscusTalk from 'vitepress-plugin-comment-with-giscus'
-import Layout from './Layout.vue'
 import { useData, useRoute } from 'vitepress'
+import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 
 export default {
   ...DefaultTheme,
