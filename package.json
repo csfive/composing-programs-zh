@@ -5,12 +5,12 @@
     "format": "prettier --cache --write ."
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "^0.1.4",
-    "markdown-it-mathjax3": "^4.3.2",
-    "prettier": "^3.2.5",
-    "vitepress": "^1.1.3",
-    "vitepress-plugin-comment-with-giscus": "^1.1.12",
-    "vue": "^3.4.24"
+    "@mancuoj/prettier-config": "latest",
+    "markdown-it-mathjax3": "latest",
+    "prettier": "latest",
+    "vitepress": "latest",
+    "vitepress-plugin-comment-with-giscus": "latest",
+    "vue": "latest"
   },
   "prettier": "@mancuoj/prettier-config"
 }
