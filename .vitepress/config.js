@@ -6,6 +6,7 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   srcDir: './sicp',
+
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     [
@@ -31,17 +32,15 @@ export default {
   },
 
   themeConfig: {
+    sidebar: { '/': sidebar() },
+    search: { provider: 'local' },
+    socialLinks: [{ icon: 'github', link: 'https://github.com/csfive' }],
+
     logo: {
       src: '/logo.svg',
       width: 24,
       height: 24,
     },
-
-    sidebar: { '/': sidebar() },
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/csfive' }],
-
-    search: { provider: 'local' },
 
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
