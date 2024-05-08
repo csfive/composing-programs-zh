@@ -31,6 +31,16 @@ export default {
     math: true,
   },
 
+  vite: {
+    optimizeDeps: {
+      include: ['@nolebase/vitepress-plugin-enhanced-readabilities > @nolebase/ui > @rive-app/canvas'],
+      exclude: ['@nolebase/vitepress-plugin-enhanced-readabilities/client'],
+    },
+    ssr: {
+      noExternal: ['@nolebase/vitepress-plugin-enhanced-readabilities'],
+    },
+  },
+
   themeConfig: {
     sidebar: { '/': sidebar() },
     search: { provider: 'local' },
