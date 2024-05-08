@@ -36,7 +36,14 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <template #nav-bar-content-after>
+      <slot name="nav-bar-content-after" />
+    </template>
+    <template #nav-screen-content-after>
+      <slot name="nav-screen-content-after" />
+    </template>
+  </DefaultTheme.Layout>
 </template>
 
 <style>

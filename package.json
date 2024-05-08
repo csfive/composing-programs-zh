@@ -10,6 +10,7 @@
     "prettier": "latest",
     "vitepress": "latest",
     "vitepress-plugin-comment-with-giscus": "latest",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "latest",
     "vue": "latest"
   },
   "prettier": "@mancuoj/prettier-config"
