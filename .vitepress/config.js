@@ -33,11 +33,10 @@ export default {
 
   vite: {
     optimizeDeps: {
-      include: ['@nolebase/vitepress-plugin-enhanced-readabilities > @nolebase/ui > @rive-app/canvas'],
-      exclude: ['@nolebase/vitepress-plugin-enhanced-readabilities/client'],
+      exclude: ['@nolebase/vitepress-plugin-enhanced-readabilities/client', 'vitepress', '@nolebase/ui'],
     },
     ssr: {
-      noExternal: ['@nolebase/vitepress-plugin-enhanced-readabilities'],
+      noExternal: ['@nolebase/vitepress-plugin-enhanced-readabilities', '@nolebase/ui'],
     },
   },
 
