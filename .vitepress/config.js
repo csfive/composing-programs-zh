@@ -52,7 +52,7 @@ export default {
     },
 
     editLink: {
-      pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/docs/:path',
+      pattern: 'https://github.com/csfive/composing-programs-zh/edit/main/sicp/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
