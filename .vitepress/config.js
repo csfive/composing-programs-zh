@@ -10,6 +10,14 @@ export default {
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     [
+      'script',
+      {
+        defer: '',
+        src: 'https://a.mancuoj.me/script.js',
+        'data-website-id': '3007f04b-0668-449b-ad29-ec01260dd73b',
+      },
+    ],
+    [
       'meta',
       {
         name: 'keywords',
@@ -29,11 +37,18 @@ export default {
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' },
     math: true,
+    image: {
+      lazyLoading: true,
+    },
   },
 
   vite: {
     optimizeDeps: {
-      exclude: ['@nolebase/vitepress-plugin-enhanced-readabilities/client', 'vitepress', '@nolebase/ui'],
+      exclude: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        'vitepress',
+        '@nolebase/ui',
+      ],
     },
     ssr: {
       noExternal: ['@nolebase/vitepress-plugin-enhanced-readabilities', '@nolebase/ui'],

@@ -3,4 +3,4 @@ NODE_VERSION = "20"
 
 [build]
 publish = ".vitepress/dist"
-command = "pnpm build"
+command = "bun run build"
