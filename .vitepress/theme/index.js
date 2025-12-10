@@ -6,13 +6,13 @@ import {
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesScreenMenu,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
-import Layout from './Layout.vue'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import './styles.css'
 
 export default {
   ...DefaultTheme,
   Layout: () => {
-    return h(Layout, null, {
+    return h(DefaultTheme.Layout, null, {
       'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
       'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
     })
