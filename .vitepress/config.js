@@ -14,7 +14,7 @@ export default {
       {
         defer: '',
         src: 'https://a.mancuoj.me/script.js',
-        'data-website-id': '3007f04b-0668-449b-ad29-ec01260dd73b',
+        'data-website-id': '89690757-476a-4ca7-8300-63aaaefcf629',
       },
     ],
     [
