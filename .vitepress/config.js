@@ -58,7 +58,7 @@ export default {
   themeConfig: {
     sidebar: { '/': sidebar() },
     search: { provider: 'local' },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/csfive' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/csfive/composing-programs-zh' }],
 
     logo: {
       src: '/logo.svg',
