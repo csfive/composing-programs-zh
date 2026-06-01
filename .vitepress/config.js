@@ -1,3 +1,5 @@
+import { schemeFencePlugin } from './markdown/scheme-fence.js'
+
 export default {
   title: 'CS Five',
   titleTemplate: ':title',
@@ -39,6 +41,9 @@ export default {
     math: true,
     image: {
       lazyLoading: true,
+    },
+    config(md) {
+      schemeFencePlugin(md)
     },
   },
 

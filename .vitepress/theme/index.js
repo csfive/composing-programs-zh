@@ -8,6 +8,7 @@ import {
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import './styles.css'
+import SchemeRunBlock from './components/SchemeRunBlock.vue'
 
 export default {
   ...DefaultTheme,
@@ -19,6 +20,7 @@ export default {
   },
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
+    ctx.app.component('SchemeRunBlock', SchemeRunBlock)
   },
   setup() {
     const { frontmatter } = useData()
