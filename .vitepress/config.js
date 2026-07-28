@@ -48,6 +48,17 @@ export default {
   },
 
   vite: {
+    resolve: {
+      dedupe: [
+        '@codemirror/commands',
+        '@codemirror/language',
+        '@codemirror/legacy-modes',
+        '@codemirror/state',
+        '@codemirror/view',
+        '@lezer/common',
+        '@lezer/highlight',
+      ],
+    },
     optimizeDeps: {
       exclude: [
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
