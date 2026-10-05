@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # Maintain dependencies for Bun
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      bun:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
