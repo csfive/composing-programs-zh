@@ -13,3 +13,8 @@ updates:
         update-types:
           - "minor"
           - "patch"
+    ignore:
+      # vitepress 1.6.4 requires markdown-it-mathjax3 as peer "^4"
+      - dependency-name: "markdown-it-mathjax3"
+        update-types:
+          - "version-update:semver-major"

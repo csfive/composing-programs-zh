@@ -5,13 +5,13 @@
     "format": "prettier --cache --write ."
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "latest",
-    "markdown-it-mathjax3": "latest",
-    "prettier": "latest",
-    "vitepress": "latest",
-    "vitepress-plugin-comment-with-giscus": "latest",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "latest",
-    "vue": "latest"
+    "@mancuoj/prettier-config": "^0.6.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "prettier": "^3.9.9",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
+    "vue": "^3.5.43"
   },
   "prettier": "@mancuoj/prettier-config",
   "dependencies": {
