@@ -61,6 +61,8 @@ const evaluateForms = (interpreter: InstanceType<typeof BiwaScheme.Interpreter>,
         break
       }
     }
+  } catch (e) {
+    error = e instanceof Error ? e.message : String(e)
   } finally {
     BiwaScheme.Port.current_output = prevOut
     BiwaScheme.Port.current_error = prevErr
