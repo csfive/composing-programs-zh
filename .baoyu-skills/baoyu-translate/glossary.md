@@ -83,6 +83,7 @@
 | instance                | 实例                 | 通                                                                   |
 | attribute               | 属性                 | Py                                                                   |
 | method                  | 方法                 | Py                                                                   |
+| special method          | 特殊方法             | Py；`__xx__` 这类方法                                                |
 | inheritance             | 继承                 | 通                                                                   |
 | multiple inheritance    | 多重继承             | 通                                                                   |
 | message passing         | 消息传递             | SICP                                                                 |
@@ -123,7 +124,7 @@
 | lock                    | 锁                   | Py                                                                   |
 | deadlock                | 死锁                 | Py                                                                   |
 | race condition          | 竞争条件             | Py                                                                   |
-| synchronization         | 同步化               | Py；同步化原语 synchronization primitive                             |
+| synchronization         | 同步                 | Py；Python 文档作「同步原语」                                        |
 | atomic operation        | 原子化操作           | Py                                                                   |
 | barrier                 | 屏障                 | 通                                                                   |
 | distributed             | 分布式               | 通                                                                   |
