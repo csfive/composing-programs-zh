@@ -6,6 +6,33 @@
 
 让中文读者**像读中文一样**读懂，而不是一眼看出「这是翻译」。忠实原意，但优先自然。
 
+## 工作流（三个 skill 协同）
+
+每篇译文按 **refined** 流程走，三个 skill 各司其职：
+
+1. **`baoyu-translate`（refined 模式）** —— 主流程：分析 → 翻译 → 审校 → 润色；术语一致由 `GLOSSARY.md` 保证。
+2. **`reviewing-technical-prose`** —— 审校环节：先诊断、后修改；每条改动都要指出具体缺陷；**不新增、不丢失事实**；结论先行。
+3. **`humanizer-zh`** —— 最后润色：去翻译腔、空话、重复和模板化表达，同时保留信息与确定程度。
+
+配置：`.baoyu-skills/baoyu-translate/EXTEND.md`（zh-CN、refined、教材语气、少译注）。
+
+## 工具
+
+`GLOSSARY.md` 是术语的唯一权威；`.baoyu-skills/baoyu-translate/glossary.md` 是供 skill 读取的派生副本。改了术语表后重新生成：
+
+```sh
+{ printf '| from | to | note |\n| --- | --- | --- |\n'
+  awk -F'|' '/^\|/{
+    from=$2; to=$3; src=$4; note=$5
+    gsub(/^ +| +$/,"",from); gsub(/^ +| +$/,"",to)
+    gsub(/^ +| +$/,"",src); gsub(/^ +| +$/,"",note)
+    if (from=="English" || from ~ /^-+$/ || from=="") next
+    n=src; if (note!="") n=(n=="" ? note : n "；" note)
+    printf "| %s | %s | %s |\n", from, to, n
+  }' GLOSSARY.md
+} > .baoyu-skills/baoyu-translate/glossary.md
+```
+
 ## 总则
 
 1. **保留信息**：不增删事实、数字、条件、否定、因果、范围、时间与确定程度；不把「可能」写成「确定」。
