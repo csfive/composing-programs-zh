@@ -1,5 +1,7 @@
 import { schemeFencePlugin } from './markdown/scheme-fence.js'
 
+const HOST = 'https://composingprograms.netlify.app'
+
 export default {
   title: 'CS Five',
   titleTemplate: ':title',
@@ -34,7 +36,37 @@ export default {
       },
     ],
     ['meta', { name: 'author', content: 'CS Five' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'CS Five' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          '伯克利 CS61A 教材《Composing Programs》（SICP 的 Python 版本）的中文译本，全书 4 章 29 节。',
+      },
+    ],
+    ['meta', { property: 'og:image', content: `${HOST}/og-image.png` }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: `${HOST}/og-image.png` }],
   ],
+
+  sitemap: {
+    hostname: HOST,
+  },
+
+  // 每页的 og:title / og:url 与 canonical，避免与 head 里的重复
+  transformHead({ pageData }) {
+    const path = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '')
+    const url = `${HOST}/${path}`
+    return [
+      ['meta', { property: 'og:title', content: pageData.title || 'Composing Programs 中文译本' }],
+      ['meta', { property: 'og:url', content: url }],
+      ['link', { rel: 'canonical', href: url }],
+    ]
+  },
 
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' },
