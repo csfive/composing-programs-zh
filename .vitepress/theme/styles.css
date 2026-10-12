@@ -20,3 +20,52 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--vp-c-text-3);
 }
+
+/* 首页章节卡片 */
+.chapters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.chapters .chapter {
+  padding: 16px 18px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+  transition: border-color 0.25s;
+}
+
+.chapters .chapter:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.chapters .chapter-head {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.chapters .chapter-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+
+.chapters .chapter-body a {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.chapters .chapter-body a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+@media (max-width: 640px) {
+  .chapters {
+    grid-template-columns: 1fr;
+  }
+}
