@@ -22,20 +22,4 @@
 
 - [4.1 引言](/4/1) · [4.2 隐式序列](/4/2) · [4.3 声明式编程](/4/3) · [4.4 Logic 语言编程](/4/4) · [4.5 合一](/4/5) · [4.6 分布式计算](/4/6) · [4.7 分布式数据处理](/4/7) · [4.8 并行计算](/4/8)
 
-## 关于本项目
-
-本译文由 [CS Five](https://github.com/csfive) 组织维护，术语以 [Python 中文文档](https://docs.python.org/zh-cn/3/glossary.html) 与 SICP 中译本为准，风格约定见 [TRANSLATION.md](https://github.com/csfive/composing-programs-zh/blob/main/TRANSLATION.md)，术语表见 [GLOSSARY.md](https://github.com/csfive/composing-programs-zh/blob/main/GLOSSARY.md)。
-
-发现错漏或有改进建议，欢迎到 [GitHub 仓库](https://github.com/csfive/composing-programs-zh) 提交 issue 或 PR。
-
-## 贡献者
-
-<a href="https://github.com/csfive/composing-programs-zh/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=csfive/composing-programs-zh" />
-</a>
-
-## 许可与致谢
-
-原书 [Composing Programs](https://www.composingprograms.com/) 由 [John DeNero](https://www.dennco.com/) 编写，基于 Harold Abelson 与 Gerald Jay Sussman 的《计算机程序的构造和解释》，以 Creative Commons 署名—相同方式共享（CC BY-SA）许可发布。本译文是其衍生作品，正文同样以相同许可发布；仓库中的站点代码以 MIT 发布。
-
-感谢原作者 John DeNero 与 SICP 的两位作者，也感谢每一位参与翻译和给项目 star 的同学。
+关于本书、翻译规范与许可，见 [关于](/about)。

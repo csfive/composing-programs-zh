@@ -72,6 +72,10 @@ export default {
   },
 
   themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '关于', link: '/about' },
+    ],
     sidebar: { '/': sidebar() },
     search: { provider: 'local' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/csfive/composing-programs-zh' }],
