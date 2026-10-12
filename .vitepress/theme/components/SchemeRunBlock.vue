@@ -155,7 +155,6 @@ onUnmounted(() => {
       v-if="!off && (output || running)"
       class="scheme-run-block__output"
       :class="{ 'scheme-run-block__output--error': outputError }"
-      >{{ running && !output ? '…' : output }}</pre
-    >
+      >{{ running && !output ? '…' : output }}</pre>
   </div>
 </template>

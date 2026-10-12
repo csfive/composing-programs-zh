@@ -29,7 +29,10 @@ const resetTopEnv = (baseline: Set<string>) => {
   }
 }
 
-const evaluateForms = (interpreter: InstanceType<typeof BiwaScheme.Interpreter>, code: string): SchemeRunResult => {
+const evaluateForms = (
+  interpreter: InstanceType<typeof BiwaScheme.Interpreter>,
+  code: string,
+): SchemeRunResult => {
   const displayed: string[] = []
   const results: string[] = []
   let error: string | undefined

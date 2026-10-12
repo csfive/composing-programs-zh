@@ -1,6 +1,5 @@
 /** Strip leading/trailing blank lines (fence content hygiene). */
-export const cleanFenceCode = (code: string): string =>
-  code.replace(/^\n/, '').replace(/\n*$/, '')
+export const cleanFenceCode = (code: string): string => code.replace(/^\n/, '').replace(/\n*$/, '')
 
 /**
  * If any line is a REPL prompt (`> expr`), only those expressions are executed.

@@ -2,18 +2,18 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "format": "prettier --cache --write .",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
     "typecheck": "vue-tsc --noEmit",
     "test": "vitest run"
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "^0.6.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "markdown-it-mathjax3": "^4.3.2",
+    "oxfmt": "^0.72.0",
     "oxlint": "^1.87.0",
-    "prettier": "^3.9.9",
     "typescript": "^5.9.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
@@ -21,7 +21,6 @@
     "vue": "^3.5.43",
     "vue-tsc": "^3.3.13"
   },
-  "prettier": "@mancuoj/prettier-config",
   "dependencies": {
     "@codemirror/commands": "^6.11.1",
     "@codemirror/language": "^6.13.1",

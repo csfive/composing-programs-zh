@@ -1,20 +1,20 @@
 version: 2
 updates:
   # Maintain dependencies for Bun
-  - package-ecosystem: "bun"
-    directory: "/"
+  - package-ecosystem: 'bun'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
     open-pull-requests-limit: 5
     groups:
       bun:
         patterns:
-          - "*"
+          - '*'
         update-types:
-          - "minor"
-          - "patch"
+          - 'minor'
+          - 'patch'
     ignore:
       # vitepress 1.6.4 requires markdown-it-mathjax3 as peer "^4"
-      - dependency-name: "markdown-it-mathjax3"
+      - dependency-name: 'markdown-it-mathjax3'
         update-types:
-          - "version-update:semver-major"
+          - 'version-update:semver-major'
