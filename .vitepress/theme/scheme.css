@@ -1,28 +1,21 @@
 /*
- * A runnable scheme block is an editable input (the code) plus its output.
- * It intentionally keeps a visible border and a divider so it does not read as
- * a plain, static code block: the border marks the editable area and the
- * divider separates the code from the result it produced.
+ * Runnable scheme blocks mirror the default-theme code block: same background,
+ * radius and rhythm. The code is editable and its output is shown below it,
+ * separated by a divider.
  */
 
 .scheme-run-block {
-  position: relative;
-  margin: 16px 0;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  overflow: hidden;
+  margin: 16px -24px;
   background-color: var(--vp-code-block-bg);
-  transition:
-    border-color 0.25s,
-    background-color 0.5s;
+  transition: background-color 0.5s;
+  overflow: hidden;
 }
 
-.scheme-run-block:hover {
-  border-color: var(--vp-c-text-3);
-}
-
-.scheme-run-block--focused {
-  border-color: var(--vp-c-brand-1);
+@media (min-width: 640px) {
+  .scheme-run-block {
+    margin: 16px 0;
+    border-radius: 8px;
+  }
 }
 
 /* The code area is editable, so it shows a text cursor. */
@@ -41,7 +34,7 @@
 }
 
 .scheme-run-block__editor .cm-scroller {
-  padding: 16px 0;
+  padding: 20px 0;
   font-family: var(--vp-font-family-mono);
   line-height: var(--vp-code-line-height);
 }
@@ -54,41 +47,23 @@
   padding: 0;
 }
 
-/* Hover/focus hint: tells the reader the code can be edited. */
-.scheme-run-block__hint {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 6px 12px;
-  font-size: 12px;
-  line-height: 1;
-  color: var(--vp-c-text-3);
-  opacity: 0;
-  transition: opacity 0.25s;
-  pointer-events: none;
-  user-select: none;
+/*
+ * CodeMirror renders its caret/cursor for a light theme unless told otherwise,
+ * which is invisible on the dark background. Force white in dark mode.
+ */
+.dark .scheme-run-block__editor .cm-editor,
+.dark .scheme-run-block__editor .cm-content {
+  caret-color: var(--vp-c-white);
 }
 
-.scheme-run-block:hover .scheme-run-block__hint,
-.scheme-run-block--focused .scheme-run-block__hint {
-  opacity: 1;
-}
-
-/* Touch devices have no hover: keep the hint visible. */
-@media (hover: none) {
-  .scheme-run-block__hint {
-    opacity: 1;
-  }
-}
-
-.scheme-run-block--focused .scheme-run-block__hint {
-  color: var(--vp-c-brand-1);
+.dark .scheme-run-block__editor .cm-editor .cm-cursor {
+  border-left-color: var(--vp-c-white);
 }
 
 /* The result is not editable: dim it and split it from the code above. */
 .scheme-run-block__output {
   margin: 0;
-  padding: 8px 24px 16px;
+  padding: 8px 24px 20px;
   font-family: var(--vp-font-family-mono);
   font-size: var(--vp-code-font-size);
   line-height: var(--vp-code-line-height);
