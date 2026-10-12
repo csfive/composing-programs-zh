@@ -119,5 +119,6 @@ onUnmounted(() => {
       class="scheme-run-block__output"
       :class="{ 'scheme-run-block__output--error': outputError }"
       >{{ running && !output ? '…' : output }}</pre>
+    <span class="scheme-run-block__hint" aria-hidden="true">点击编辑</span>
   </div>
 </template>
