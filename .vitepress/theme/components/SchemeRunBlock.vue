@@ -107,7 +107,7 @@ const buildExtensions = () => [
       focused.value = false
       if (!props.off) {
         setEditable(false)
-        session.rerunFrom(props.index)
+        session.rerun()
       }
     },
   }),

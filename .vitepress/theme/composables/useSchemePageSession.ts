@@ -1,5 +1,5 @@
 import { useRoute } from 'vitepress'
-import { onScopeDispose, reactive, watch } from 'vue'
+import { effectScope, onScopeDispose, reactive, watch } from 'vue'
 import { createSchemeSession, formatSchemeOutput, type SchemeSession } from '../../scheme/eval'
 import { extractExecutableSource } from '../../scheme/parse'
 
@@ -15,10 +15,10 @@ type PageSession = {
   session: SchemeSession
   blocks: Map<number, SchemeBlockHandle>
   bootstrapped: boolean
+  bootstrapTimer?: ReturnType<typeof setTimeout>
 }
 
 const sessions = new Map<string, PageSession>()
-let routeWatchInstalled = false
 
 const getPageSession = (path: string): PageSession => {
   let page = sessions.get(path)
@@ -31,6 +31,14 @@ const getPageSession = (path: string): PageSession => {
     sessions.set(path, page)
   }
   return page
+}
+
+/** Drop a page's interpreter and pending work once we navigate away from it. */
+const disposePageSession = (path: string) => {
+  const page = sessions.get(path)
+  if (!page) return
+  if (page.bootstrapTimer) clearTimeout(page.bootstrapTimer)
+  sessions.delete(path)
 }
 
 const runnableBlocks = (page: PageSession) =>
@@ -46,46 +54,41 @@ const replayBlocks = async (page: PageSession) => {
   }
 }
 
+let routeWatchInstalled = false
+
+// Kept in a detached scope so it survives the unmount of whichever block
+// happened to install it; otherwise it would be disposed with that component
+// and later navigations would never release their page session.
+const installRouteWatch = (path: () => string) => {
+  routeWatchInstalled = true
+  effectScope(true).run(() => {
+    watch(path, (_path, prev) => {
+      if (prev) disposePageSession(prev)
+    })
+  })
+}
+
 export const useSchemePageSession = () => {
   const route = useRoute()
-  const path = route.path
-  const page = getPageSession(path)
+  const page = getPageSession(route.path)
 
-  if (!routeWatchInstalled) {
-    routeWatchInstalled = true
-    watch(
-      () => route.path,
-      (_path, prev) => {
-        if (!prev) return
-        const previous = sessions.get(prev)
-        if (previous) previous.bootstrapped = false
-      },
-    )
-  }
+  if (!routeWatchInstalled) installRouteWatch(() => route.path)
+
+  const owned = new Set<SchemeBlockHandle>()
 
   const register = (block: SchemeBlockHandle) => {
     page.blocks.set(block.index, block)
+    owned.add(block)
   }
 
   const unregister = (block: SchemeBlockHandle) => {
     page.blocks.delete(block.index)
+    owned.delete(block)
   }
 
-  const runBlock = async (index: number) => {
-    const block = page.blocks.get(index)
-    if (!block || block.off) return
-
-    block.setRunning(true)
-    const result = page.session.run(extractExecutableSource(block.getSource()))
-    block.setOutput(formatSchemeOutput(result), Boolean(result.error))
-    block.setRunning(false)
-  }
-
-  const rerunFrom = async (index: number) => {
+  const rerun = async () => {
     await replayBlocks(page)
   }
-
-  let bootstrapTimer: ReturnType<typeof setTimeout> | undefined
 
   const bootstrap = async () => {
     if (page.bootstrapped) return
@@ -94,21 +97,19 @@ export const useSchemePageSession = () => {
   }
 
   const scheduleBootstrap = () => {
-    if (bootstrapTimer) clearTimeout(bootstrapTimer)
-    bootstrapTimer = setTimeout(() => bootstrap(), 0)
+    if (page.bootstrapTimer) clearTimeout(page.bootstrapTimer)
+    page.bootstrapTimer = setTimeout(() => void bootstrap(), 0)
   }
 
   onScopeDispose(() => {
-    for (const block of page.blocks.values()) {
-      unregister(block)
-    }
+    for (const block of owned) page.blocks.delete(block.index)
+    owned.clear()
   })
 
   return reactive({
     register,
     unregister,
-    runBlock,
-    rerunFrom,
+    rerun,
     scheduleBootstrap,
   })
 }

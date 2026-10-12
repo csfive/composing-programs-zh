@@ -1,6 +1,4 @@
 /coverage
-/src/client/shared.ts
-/src/node/shared.ts
 *.log
 *.tgz
 .DS_Store
@@ -8,7 +6,5 @@
 .temp
 .vite_opt_cache
 dist
-examples-temp
 node_modules
-pnpm-global
 cache
