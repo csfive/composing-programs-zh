@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 翻译规范（TRANSLATION.md）
+    url: https://github.com/csfive/composing-programs-zh/blob/main/TRANSLATION.md
+    about: 提 issue 前，先看看本项目的风格约定与常见翻译腔清单。
+  - name: 术语表（GLOSSARY.md）
+    url: https://github.com/csfive/composing-programs-zh/blob/main/GLOSSARY.md
+    about: 术语译法的权威来源；如果是术语不一致，请对照这里。

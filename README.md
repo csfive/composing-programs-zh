@@ -80,11 +80,10 @@ bun run test         # 单元测试
 
 ## 反馈与贡献
 
-欢迎任何形式的参与。
+欢迎任何形式的参与，详见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)。
 
-- **发现错漏**：开一个 [issue](https://github.com/csfive/composing-programs-zh/issues)，最好写明章节、原句与你的建议。
-- **提交修改**：直接发 PR；请先对照 [`TRANSLATION.md`](./TRANSLATION.md)，保持术语一致，正文以外的代码块、链接与图片不要改动。
-- **认领章节**：整章尚未过审时可开 issue 认领，避免重复劳动。
+- **发现错漏**：开一个 [issue](https://github.com/csfive/composing-programs-zh/issues)，写明章节、原句与你的建议。
+- **提交修改**：发 PR 前请先读 [`TRANSLATION.md`](./TRANSLATION.md)，保持术语一致。
 
 ## 技术栈
 
