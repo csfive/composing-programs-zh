@@ -8,6 +8,7 @@ import {
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import './styles.css'
+import './scheme.css'
 import SchemeRunBlock from './components/SchemeRunBlock.vue'
 
 export default {

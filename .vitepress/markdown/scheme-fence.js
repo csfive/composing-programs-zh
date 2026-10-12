@@ -1,6 +1,11 @@
 import { cleanFenceCode } from '../scheme/parse'
 
 /**
+ * Turn ```scheme fences into an interactive, runnable block.
+ *
+ * A trailing `off` flag (```scheme off) opts out: those fences stay as plain
+ * highlighted code, which is what the transcript-style examples use.
+ *
  * @param {import('markdown-it')} md
  */
 export function schemeFencePlugin(md) {
@@ -8,16 +13,9 @@ export function schemeFencePlugin(md) {
 
   md.renderer.rules.fence = (tokens, idx, options, env, self) => {
     const token = tokens[idx]
-    const info = token.info.trim()
-    const parts = info.split(/\s+/)
-    const lang = parts[0]
+    const [lang, ...flags] = token.info.trim().split(/\s+/)
 
-    if (lang !== 'scheme') {
-      return defaultFence(tokens, idx, options, env, self)
-    }
-
-    const off = parts.includes('off')
-    if (off) {
+    if (lang !== 'scheme' || flags.includes('off')) {
       return defaultFence(tokens, idx, options, env, self)
     }
 
@@ -26,6 +24,6 @@ export function schemeFencePlugin(md) {
     const code = cleanFenceCode(token.content)
     const codeAttr = JSON.stringify(code).replace(/'/g, '&#39;')
 
-    return `<ClientOnly><SchemeRunBlock :index="${index}" :off="${off}" :code='${codeAttr}' /></ClientOnly>\n`
+    return `<ClientOnly><SchemeRunBlock :index="${index}" :code='${codeAttr}' /></ClientOnly>\n`
   }
 }

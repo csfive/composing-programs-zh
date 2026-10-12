@@ -1,0 +1,65 @@
+/*
+ * Runnable scheme blocks mirror the default-theme code block
+ * (`.vp-doc div[class*='language-']`): same background, radius and rhythm, so
+ * they sit in the page like any other code block instead of a bespoke widget.
+ */
+
+.scheme-run-block {
+  margin: 16px -24px;
+  background-color: var(--vp-code-block-bg);
+  transition: background-color 0.5s;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .scheme-run-block {
+    margin: 16px 0;
+    border-radius: 8px;
+  }
+}
+
+.scheme-run-block--focused {
+  box-shadow: inset 0 0 0 1px var(--vp-c-brand-1);
+}
+
+.scheme-run-block__editor .cm-editor {
+  background: transparent;
+  color: var(--vp-code-block-color);
+  font-size: var(--vp-code-font-size);
+}
+
+.scheme-run-block__editor .cm-editor.cm-focused {
+  outline: none;
+}
+
+.scheme-run-block__editor .cm-scroller {
+  padding: 20px 0;
+  font-family: var(--vp-font-family-mono);
+  line-height: var(--vp-code-line-height);
+}
+
+.scheme-run-block__editor .cm-content {
+  padding: 0 24px;
+}
+
+.scheme-run-block__editor .cm-line {
+  padding: 0;
+}
+
+.scheme-run-block__output {
+  margin: 0;
+  padding: 0 24px 20px;
+  font-family: var(--vp-font-family-mono);
+  font-size: var(--vp-code-font-size);
+  line-height: var(--vp-code-line-height);
+  color: var(--vp-code-block-color);
+  white-space: pre-wrap;
+}
+
+.scheme-run-block--running .scheme-run-block__output {
+  color: var(--vp-c-text-3);
+}
+
+.scheme-run-block__output--error {
+  color: var(--vp-c-danger-1);
+}
