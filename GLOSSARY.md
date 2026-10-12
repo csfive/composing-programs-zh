@@ -57,29 +57,29 @@
 
 ## 2. 函数与抽象
 
-| English               | 中文          | 来源 | 说明                               |
-| --------------------- | ------------- | ---- | ---------------------------------- |
-| function              | 函数          | Py   |                                    |
-| procedure             | 过程          | SICP | 强调「可被施加的过程」时用「过程」 |
-| parameter             | 形参          | Py   | 函数定义中的命名实体               |
-| argument              | 参数          | Py   | 调用时传入的值；注意与形参区分     |
-| call                  | 调用          | 通   |                                    |
-| apply                 | 施加 / 应用   | SICP | 将过程施加于参数                   |
-| return value          | 返回值        | 通   |                                    |
-| pure function         | 纯函数        | SICP |                                    |
-| higher-order function | 高阶函数      | SICP |                                    |
-| composition           | 复合          | SICP | 复合函数、复合数据                 |
-| currying              | 柯里化        | 通   |                                    |
-| decorator             | 装饰器        | Py   |                                    |
-| closure               | 闭包          | 通   |                                    |
-| predicate             | 谓词          | 通   |                                    |
-| recursion / recursive | 递归 / 递归的 | 通   |                                    |
-| iteration / iterative | 迭代 / 迭代的 | 通   |                                    |
-| memoization           | 记忆化        | 通   |                                    |
-| abstraction           | 抽象          | 通   |                                    |
-| primitive             | 基本的        | 通   | 基本表达式、基本函数               |
-| compound              | 复合的        | 通   |                                    |
-| default argument      | 默认参数      | Py   |                                    |
+| English               | 中文          | 来源 | 说明                                                             |
+| --------------------- | ------------- | ---- | ---------------------------------------------------------------- |
+| function              | 函数          | Py   |                                                                  |
+| procedure             | 过程          | SICP | 强调「可被施加的过程」时用「过程」                               |
+| parameter             | 形参          | Py   | 函数定义中的命名实体；本书原文 formal parameter 译作「形式参数」 |
+| argument              | 参数          | Py   | 调用时传入的值；注意与形参区分                                   |
+| call                  | 调用          | 通   |                                                                  |
+| apply                 | 施加 / 应用   | SICP | 将过程施加于参数                                                 |
+| return value          | 返回值        | 通   |                                                                  |
+| pure function         | 纯函数        | SICP |                                                                  |
+| higher-order function | 高阶函数      | SICP |                                                                  |
+| composition           | 复合          | SICP | 复合函数、复合数据                                               |
+| currying              | 柯里化        | 通   |                                                                  |
+| decorator             | 装饰器        | Py   |                                                                  |
+| closure               | 闭包          | 通   |                                                                  |
+| predicate             | 谓词          | 通   |                                                                  |
+| recursion / recursive | 递归 / 递归的 | 通   |                                                                  |
+| iteration / iterative | 迭代 / 迭代的 | 通   |                                                                  |
+| memoization           | 记忆化        | 通   |                                                                  |
+| abstraction           | 抽象          | 通   |                                                                  |
+| primitive             | 基本的        | 通   | 基本表达式、基本函数                                             |
+| compound              | 复合的        | 通   |                                                                  |
+| default argument      | 默认参数      | Py   |                                                                  |
 
 ## 3. 数据与序列
 
