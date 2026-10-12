@@ -18,3 +18,11 @@ updates:
       - dependency-name: 'markdown-it-mathjax3'
         update-types:
           - 'version-update:semver-major'
+      # typescript 7 (native compiler) is incompatible with vue-tsc; stay on 5.x
+      - dependency-name: 'typescript'
+        update-types:
+          - 'version-update:semver-major'
+      # vitest 4+ requires vite 6; vitepress 1.6 ships vite 5
+      - dependency-name: 'vitest'
+        update-types:
+          - 'version-update:semver-major'
