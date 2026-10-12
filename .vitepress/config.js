@@ -202,7 +202,7 @@ function sidebar() {
         { text: '4.1 引言', link: '/4/1' },
         { text: '4.2 隐式序列', link: '/4/2' },
         { text: '4.3 声明式编程', link: '/4/3' },
-        { text: '4.4 Logic 语言编程', link: '/4/4' },
+        { text: '4.4 逻辑编程', link: '/4/4' },
         { text: '4.5 合一', link: '/4/5' },
         { text: '4.6 分布式计算', link: '/4/6' },
         { text: '4.7 分布式数据处理', link: '/4/7' },

@@ -46,7 +46,7 @@
 - [4.1 引言](https://composingprograms.netlify.app/4/1)
 - [4.2 隐式序列](https://composingprograms.netlify.app/4/2)
 - [4.3 声明式编程](https://composingprograms.netlify.app/4/3)
-- [4.4 Logic 语言编程](https://composingprograms.netlify.app/4/4)
+- [4.4 逻辑编程](https://composingprograms.netlify.app/4/4)
 - [4.5 合一](https://composingprograms.netlify.app/4/5)
 - [4.6 分布式计算](https://composingprograms.netlify.app/4/6)
 - [4.7 分布式数据处理](https://composingprograms.netlify.app/4/7)
