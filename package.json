@@ -12,8 +12,8 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.21.1",
     "markdown-it-mathjax3": "^4.3.2",
-    "oxfmt": "^0.73.0",
-    "oxlint": "^1.88.0",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
     "typescript": "^5.9.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
@@ -26,7 +26,7 @@
     "@codemirror/language": "^6.13.1",
     "@codemirror/legacy-modes": "^6.5.5",
     "@codemirror/state": "^6.7.6",
-    "@codemirror/view": "^6.43.14",
+    "@codemirror/view": "^6.43.15",
     "biwascheme": "^0.8.3",
     "codemirror": "^6.0.2"
   }
