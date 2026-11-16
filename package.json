@@ -12,8 +12,8 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.21.1",
     "markdown-it-mathjax3": "^4.3.2",
-    "oxfmt": "^0.76.0",
-    "oxlint": "^1.91.0",
+    "oxfmt": "^0.78.0",
+    "oxlint": "^1.93.0",
     "typescript": "^5.9.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
